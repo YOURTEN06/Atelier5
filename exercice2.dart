@@ -9,5 +9,7 @@ void main() {
     print("Votre age est : $age");
   } on FormatException catch (e) {
     print("Format invalide : entrez un nombre entier.");
+  } finally {
+    print("Fin d'opération");
   }
 }
